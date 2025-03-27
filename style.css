@@ -1,0 +1,32 @@
+<style>
+    body {
+        background-color: rgb(31, 30, 39);
+        margin-inline: 35px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: medium;
+        color: aliceblue; text-align: center;
+        
+        }
+    
+    table, th, td { border: 1px solid rgb(231, 210, 156);
+        border-collapse: collapse; 
+        border-radius: 35px%; text-align: center; 
+    }
+ th, td { background-color: transparent;
+
+ }
+ h1 { background-color: rgb(13, 17, 26); padding: 40px;
+    color: rgb(217, 220, 231);
+    text-align: left;
+    text-shadow: 0cqmax;
+    text-shadow: blue;
+    text-size-adjust: 100px;
+ }
+ h2 { color: rgb(192, 174, 74);
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+</style>

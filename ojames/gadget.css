@@ -1,0 +1,31 @@
+
+body {
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #88D3E6, #C2E9E0, #F3D8C7, #FFFFFF);
+}
+header {
+
+}
+
+img {
+    width:45%;
+    height: 45%;
+}
+
+.sw {
+    font-family:Impact;
+    font-weight: 900;
+    
+    text-shadow: 4px 4px 4px #4b8bc0;
+}
+
+table {
+    
+}

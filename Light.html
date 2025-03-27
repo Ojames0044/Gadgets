@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            How to on and off light using a button
+        </title>
+        <meta>
+        <style> 
+        body { background-color: dimgray;
+
+        }
+
+        </style>
+    </head>
+    <body>
+        <script>
+            function light(sw) {
+                var pic;
+                if (sw==0) {
+                    pic="C:/Users/USER/Downloads/emoji6_files/pic_bulboff.gif"
+                } else {
+                    pic="C:/Users/USER/Downloads/emoji6_files/pic_bulbon.gif"
+                }
+                document.getElementById('myImage').src =pic;
+            }
+        </script>
+    <img id="myImage" src="C:/Users/USER/Downloads/emoji6_files/pic_bulboff.gif" width="100" height="180" alt="Picture not available">
+    <p>
+        <button type="button" onclick="light(1)">Light On</button> 
+        <button type="button" onclick="light(0)">Light Off</button>
+    </p>
+    </body>
+</html>

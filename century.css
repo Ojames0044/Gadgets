@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    margin: 0;
+    padding: 25px;
+    
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+   /* display: flex;
+    align-items: center; */
+    text-align: center;
+    background: linear-gradient(to top right, #6accf0,
+     #69f5d4, #e7d6cf, #fdf6d6);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1.A56 {
+    text-align: center;
+    font-weight: 900;
+    align-content: center;
+    background-color: #a7e0b5;
+    color: rgb(25, 3, 77);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    text-size-adjust: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times,
+     'Times New Roman', serif;
+    
+}
+
+header {
+    text-align: left;
+    font-weight: bol;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    /*-ms-flex-item-align: center;*/
+    width: 300px;
+
+} 
+img:hover {
+    opacity: 0.8;
+}
+
+.btn, .bt {
+    
+    align-content: center;
+    background-color: #a7e0b5;
+    /*color: rgb(255, 255, 255);*/
+    padding: 10px 100px;
+    border-radius: 40px;
+   border:#ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: rgb(76, 0, 255);
+    touch-action: pinch-zoom;
+    text-decoration: underline;
+}
+.btn:visited {
+    color: green;
+    touch-action: pinch-zoom;
+}
+.btn:active {
+    color: red;
+    touch-action: pinch-zoom;
+    text-decoration: double;
+}
+
+.bt:hover {
+    color: blue;
+    touch-action: pinch-zoom;
+    text-decoration: underline;
+}
+.bt:visited {
+    color: green;
+    touch-action: pinch-zoom;
+}
+.bt:active {
+    color: rgb(255, 0, 0);
+    touch-action: pinch-zoom;
+    text-shadow: #000000;
+    text-decoration: none;
+}
+.bt{
+    color: chocolate;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(199, 221, 247);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    
+}
+
+hr {
+    color: white;
+    border-inline-style: dotted none none;
+        
+}
+
+.pro {
+  text-decoration: underline;
+}

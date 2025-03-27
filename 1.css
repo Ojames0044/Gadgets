@@ -1,0 +1,93 @@
+/* INSTRUCTIONS
+ *
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no matter how wide or narrow
+ *    the browser is.
+ *
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
+ *
+ * You may modify the HTML if needed
+ * (you probably should for this challenge)
+ *
+ */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    margin: none;
+    font-family: sans-serif;
+    text-align: justify;
+    
+    
+  }
+  
+  img {
+    border-image: auto;
+
+    
+  }
+  h1 {
+    text-align: center;
+  }
+  
+
+  .p { 
+    height: 200px;
+    position: relative;
+    border: none; 
+  }
+
+  .col {
+    image-resolution: 5px 5px 10px;
+  }
+  
+  .p2 {
+    margin: 0;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+  }
+  .container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    max-width: 750px;
+    margin: 25px;
+    background-image: "pexels-jorge-jesus-137537-614117.jpg";
+    
+    color: white;
+    padding: 25px;
+    height: 150vhauto;
+    
+    
+  }
+  .container2 {
+    position: relative;
+  }
+  .topright {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    font-size: 16px;
+  }
+
+  
+  .container-title {
+    font-size: 1.5em;
+    line-height: 1;
+    text-transform: uppercase;
+    margin 0 0 .25em;
+    
+
+  }
+  .intro-content {
+    width: 50%;
+  }
+  

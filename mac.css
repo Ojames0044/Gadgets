@@ -1,0 +1,38 @@
+
+* { box-sizing: border-box; }
+
+body{
+    background-color: white
+    margin: 0;
+    padding: 35px;
+    align-content: normal;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    background-color: rgb(12, 5, 44);
+    max-width: 735px;
+  }
+ 
+    
+
+}
+
+h1 {
+    text-align: center;
+    text-underline-position: below;
+}
+
+h2 {
+    text-align: center;
+    
+}
+.intro-content {
+    width: 35px%;
+}
